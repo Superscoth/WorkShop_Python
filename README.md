@@ -15,7 +15,7 @@ Pour commencer il faut savoir que l'extension d'un fichier python est __.py__ no
 
 `print("Hello World")`
 
-Mais avant de pouvoir lancer notre script il reste une dernière chose à faire, en effet pour éxecuter notre HelloWorld.py il nous faut les permissions, pour cela un CHMOD 777 HelloWorld.py suffira.
+Mais avant de pouvoir lancer notre script il reste une dernière chose à faire, en effet pour éxecuter notre HelloWorld.py il nous faut les permissions, pour cela un `CHMOD 777 HelloWorld.py` suffira.
 
 Il ne reste qu'à éxecuter notre script avec : `python3 ./HelloWorld.py`
 
