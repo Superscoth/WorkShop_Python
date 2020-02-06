@@ -2,7 +2,7 @@
 
 --
 
-#titre Introduction Python
+# Introduction Python
 
 Python est un langage de programmation interprété, ce qui veut dire que les intructions que vous lui envoyez sont "transcrites" en langage machine au fur et a mesure de leur lecture.
 Autrement dit c'est le contraire de langages comme le C et le C++ qui sont des langages compilés, car à la différence de python ces langages ont besoin d'un logiciel spécialisé pour transformer le code en langage machine. A chaque modification du code il faut donc repasser par une compilation.
