@@ -11,7 +11,7 @@ En somme les avantages d'un langages interprété comme python sont la simplicit
 
 ## Partie 1 Hello World
 
-Pour commencer il faut savoir que l'extension d'un fichier python est __.py__ nous allons donc créer un fichier HelloWorld.py. Le but de l'exercice est d'afficher "Hello World" à l'éxecution du script, rien de plus simple pour cela il nous suffit d'écrire print("Hello World").
+Pour commencer il faut savoir que l'extension d'un fichier python est __.py__ nous allons donc créer un fichier HelloWorld.py. Le but de l'exercice est d'afficher "Hello World" à l'éxecution du script, rien de plus simple pour cela il nous suffit d'écrire :
 
 `print("Hello World")`
 
