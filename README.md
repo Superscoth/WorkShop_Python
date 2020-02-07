@@ -45,7 +45,7 @@ def main():
 if __name__ == '__main__':
         main()
 ```
-__Note :__ Pour appeler un main en python on cherche si il existe, et si la condition est vrai alors on l'appel.
+__Note :__ Pour appeler un main en python on cherche si il existe, si c'est le cas alors la condition est vérifié et le main est appelé.
 
 __Exercice__
 
