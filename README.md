@@ -33,15 +33,23 @@ Tout d'abord voici la syntaxe d'une fonction en python :
 def fonction(args):
         <code>
 ```
-
-Cette façon de prototyper ne changera jamais sauf dans le cas du main, mais nous verons cela plus tard.
-
 __Attention :__ Le python n'utilise pas d'accolade l'indentation est donc primordiale c'est elle qui permet à l'interpréteur de faire son travail.
 
+Avant de passer à un petit exercice nous allons voir comment faire un main en python, ce n'est pas nécessaire mais ça permet d'aider à mieux comprendre comment notre code fonctionne.
+
+
+```
+def main():
+        <code>
+
+if __name__ == '__main__':
+        main()
+```
+__Note :__ Pour appeler un main en python on cherche si il existe, et si la condition est vrai alors on l'appel.
 
 __Exercice__
 
-Ecrivez une fonction qui prend en argument une string et qui la print.
+Ecrivez une fonction autre que le main qui prend en argument une string et qui la print.
 
 __Note :__ Si vous avez le moindre problème n'hésiter pas et appeler nous.
 
