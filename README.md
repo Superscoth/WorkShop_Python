@@ -22,15 +22,31 @@ Il ne reste qu'à éxecuter notre script avec : `python3 ./HelloWorld.py`
 
 On remarque ici que les fonctions ne sont pas nécessaires pour dévelloper en python, mais __Attention__ croire pouvoir coder sans fonctions serait une grave erreur. En effet, il est possible de tout programmer dans un seul fichier et sans fonctions, mais cela deviendrait une purge pour vous comme pour vos collègues. C'est pourquoi nous allons voir comment prototyper et utiliser des fonctions en python.
 
-## Partie 2 Les fonctions
+## Partie 2 Fonctions et Module
 
-Voila la syntaxe d'une fonction en python :
+Avant de passer à un peu de pratique nous allons voir comment :
+* Prototyper une fonction
+* Importer des modules
+
+Tout d'abord voici la syntaxe d'une fonction en python :
 ```
 def fonction(args):
         <code>
 ```
+
+Cette façon de prototyper ne changera jamais sauf dans le cas du main, mais nous verons cela plus tard.
+
 __Attention :__ Le python n'utilise pas d'accolade l'indentation est donc primordiale c'est elle qui permet à l'interpréteur de faire son travail.
+
+Avant de passer à la pratique intéressons nous aux modules. Si on devait faire un comparatif avec le C un module serait une lib et pour l'utiliser il nous faut l'import.
+
+Voila à quoi ressemble un import en python :
+```
+import VotreModule
+```
 
 __Exercice__
 
-Ecrivez une fonction qui prend en paramètre une string pourquoi pas HelloWorld et qui la print.
+Ecrivez une fonction qui prend en paramètre une string pourquoi pas HelloWorld et qui la print. Pour cela vous aurez besoin d'import le module `sys`.
+
+Si vous avez le moindre problème n'hésiter pas et appeler nous.
