@@ -49,4 +49,4 @@ __Exercice__
 
 Ecrivez une fonction qui prend en paramètre une string pourquoi pas HelloWorld et qui la print. Pour cela vous aurez besoin d'import le module `sys`.
 
-Si vous avez le moindre problème n'hésiter pas et appeler nous.
+__Note :__ Si vous avez le moindre problème n'hésiter pas et appeler nous.
