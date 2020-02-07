@@ -16,7 +16,7 @@ Pour commencer il faut savoir que l'extension d'un fichier python est __.py__ no
 
 `print("Hello World")`
 
-Mais avant de pouvoir lancer notre script il reste une dernière chose à faire, en effet pour éxecuter notre HelloWorld.py il nous faut les permissions, pour cela un `CHMOD 777 HelloWorld.py` suffira.
+Mais avant de pouvoir lancer notre script il reste une dernière chose à faire, en effet pour exécuter notre HelloWorld.py il nous faut les permissions, pour cela un `CHMOD 777 HelloWorld.py` suffira.
 
 Il ne reste qu'à éxecuter notre script avec : `python3 ./HelloWorld.py`
 
@@ -24,7 +24,13 @@ On remarque ici que les fonctions ne sont pas nécessaires pour dévelloper en p
 
 ## Partie 2 Les fonctions
 
-Le python n'utilise pas d'accolade l'indentation est donc primordiale c'est elle qui permet à l'interpréteur de faire son travail.
+Voila la syntaxe d'une fonction en python :
+```
+def fonction(args):
+        <code>
+```
+__Attention :__ Le python n'utilise pas d'accolade l'indentation est donc primordiale c'est elle qui permet à l'interpréteur de faire son travail.
 
+__Exercice__
 
-
+Ecrivez une fonction qui prend en paramètre une string pourquoi pas HelloWorld et qui la print.
