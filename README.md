@@ -47,7 +47,7 @@ if __name__ == '__main__':
 ```
 __Note :__ Pour appeler un main en python on cherche si il existe, si c'est le cas alors la condition est vérifié et le main est appelé.
 
-__Exercice__
+__Exercice :__
 
 Ecrivez une fonction autre que le main qui prend en argument une string et qui la print.
 
@@ -60,7 +60,7 @@ Voila à quoi ressemble un import en python :
 import VotreModule
 ```
 
-__Exercice__
+__Exercice :__
 
 Comme pour l'exercice précedent vous devez print une string que votre fonction prend en argument, mais cette fois ci vous devrez récupérer la string comme argument du script. Pour cela vous aurez besoin d'import `sys`.
 
@@ -72,8 +72,13 @@ L'intérêt ici est de ne plus avoir à éxecuter notre script à l'aide de la c
 
 __Note :__ Le shebang à aussi un autre intérêt surtout si vous prévoyer de faire du python pour vos projets, sans shebang la moulinette ne pourra pas éxecuter votre script.
 
-__Exercice__
+__Exercice :__
 
 Ecrivez un script qui à l'exécution print une string __sans__ l'éxecuter avec python3.
 
 __Note :__ Si votre shebang ne fonctionne pas vérifier sa synthaxe. Sinon appeler nous.
+
+## Partie 4 Les boucles et condition
+
+
+
