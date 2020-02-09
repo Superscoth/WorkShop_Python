@@ -22,7 +22,36 @@ Il ne reste qu'à éxecuter notre script avec : `python3 ./HelloWorld.py`
 
 On remarque ici que les fonctions ne sont pas nécessaires pour dévelloper en python, mais __Attention__ croire pouvoir coder sans fonctions serait une grave erreur. En effet, il est possible de tout programmer dans un seul fichier et sans fonctions, mais cela deviendrait une purge pour vous comme pour vos collègues. C'est pourquoi nous allons voir comment prototyper et utiliser des fonctions en python.
 
-## Partie 2 Fonctions et Module
+## Partie 2 Déclaration et type
+
+Le typage d'une variable consiste à associer à sa variable symbolique un « type » de donnée, permettant à l'ordinateur de savoir si celle-ci est de type numérique, textuel, etc., d'allouer en conséquence des zones de mémoire de dimension suffisantes pour stocker cette donnée, et éventuellement de vérifier que les manipulations programmées sur cette variable (opérations mathématiques, traitement de texte, etc.) sont cohérentes avec son type.
+
+En python le typage est dynamique et consiste à laisser l'ordinateur réaliser cette opération de typage « à la volée », lors de l'exécution du code, contrairement à certains langages statiquement typés qui demandent au programmeur de déclarer expressément, pour chaque variable qu'il introduit dans son code, son typage(Comme dans les langages impératifs tel que le C, C++, ...).
+
+Voici un exemple de déclaration de variable en python :
+
+```
+HelloWorld = "Hello World"
+```
+
+En plus de ne pas avoir besoin de prototyper nos variables à la main, le typage dynamique de python alloue de lui même la mémoire.
+
+Autre exemple concret d'allocation de mémoire automatique :
+
+```
+tab = []
+```
+Dans cet exemple on crée on tableau, celui-ci est automatiquement alloué dynamiquement (pas besoin d'allouer la mémoire à la main et encore moins de la free, tout passe par un un sytème de garbage collection), et gère de lui même les types qui lui sont attribués.
+
+__Attention :__
+
+Même si le python type automatiquement cela ne veut pas dire que l'on peut créer un tableau contenant différents types. Si l'on décide de remplir notre tableau de 'int' alors on ne pourra pas ensuite remplir ce même tableau de 'string', à moins de le vider.
+
+__Exercice__
+
+Déclarer une varible lui attribuer lui une valeur ou une string et printer là.
+
+## Partie 3 Fonction et module
 
 Avant de passer à un peu de pratique nous allons voir comment :
 * Prototyper une fonction
@@ -64,7 +93,7 @@ __Exercice :__
 
 Comme pour l'exercice précedent vous devez print une string que votre fonction prend en argument, mais cette fois ci vous devrez récupérer la string comme argument du script. Pour cela vous aurez besoin d'import `sys`.
 
-## Partie 3 Shebang
+## Partie 4 Shebang
 
 Le shebang, représenté par #!, est un en-tête d'un fichier texte qui indique au système d'exploitation (de type Unix) que ce fichier n'est pas un fichier binaire mais un script; sur la même ligne est précisé l'interpréteur permettant d'exécuter ce script.
 
@@ -78,7 +107,7 @@ Ecrivez un script qui à l'exécution print une string __sans__ l'éxecuter avec
 
 __Note :__ Si votre shebang ne fonctionne pas vérifier sa synthaxe. Sinon appeler nous.
 
-## Partie 4 Les boucles et condition
+## Partie 5 Les boucles et condition
 
 
 
