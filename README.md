@@ -9,6 +9,7 @@ Autrement dit c'est le contraire de langages comme le C et le C++ qui sont des l
 En somme les avantages d'un langages interprété comme python sont la simplicité et la portabilité, un langage tel que Python est censé fonctionner aussi bien sous Windows que sous Linux ou Mac OS, et on ne devrait avoir à effectuer aucun changement dans le code pour le passer d'un système à l'autre.  
 Cela ne veut pas dire que les langages compilés ne sont pas portables, mais ils doivent passer par une étape supplémentaire souvent source d'erreur. En revanche, un langage compilé est plus rapide à l'execution qu'un langage interprété.
 
+Le python est aussi ce que l'on appel un langage de haut niveau, puisque le langage se rapproche plus du langage de l'homme que du langage de la machine. Au contraire le C est un langage de bas niveau puisque que le langage est plus proche de la machine que de l'homme.
 
 ## Partie 1 Hello World
 
