@@ -28,6 +28,8 @@ Le typage d'une variable consiste à associer à sa variable symbolique un « ty
 
 En python le typage est dynamique et consiste à laisser l'ordinateur réaliser cette opération de typage « à la volée », lors de l'exécution du code, contrairement à certains langages statiquement typés qui demandent au programmeur de déclarer expressément, pour chaque variable qu'il introduit dans son code, son typage(Comme dans les langages impératifs tel que le C, C++, ...).
 
+Le typage dynamique est une solution très commode pour le développement rapide de programmes, où le type des objets manipulés n'est pas forcément connu à l'avance, ou bien où le programmeur veut permettre par commodité le changement de type d'une variable.
+
 Voici un exemple de déclaration de variable en python :
 
 ```
