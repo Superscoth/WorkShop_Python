@@ -64,7 +64,7 @@ __Exercice__
 
 Comme pour l'exercice précedent vous devez print une string que votre fonction prend en argument, mais cette fois ci vous devrez récupérer la string comme argument du script. Pour cela vous aurez besoin d'import `sys`.
 
-#Partie 3 Shebang
+## Partie 3 Shebang
 
 Le shebang, représenté par #!, est un en-tête d'un fichier texte qui indique au système d'exploitation (de type Unix) que ce fichier n'est pas un fichier binaire mais un script; sur la même ligne est précisé l'interpréteur permettant d'exécuter ce script.
 
