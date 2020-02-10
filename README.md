@@ -149,3 +149,14 @@ while <condition>:
 
 __Exercice__
 
+
+
+Après On fait les conditions
+Ensuite les gestions et catch d'erreur
+
+Exercice ++
+
+Bonus :
+- Test Unitaire
+- Orientés objets
+- Héritage etc ...
