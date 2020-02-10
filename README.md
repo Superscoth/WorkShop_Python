@@ -110,7 +110,42 @@ Ecrivez un script qui à l'exécution print une string __sans__ l'éxecuter avec
 
 __Note :__ Si votre shebang ne fonctionne pas vérifier sa synthaxe. Sinon appeler nous.
 
-## Partie 5 Les boucles et condition
+## Partie 5 Boucles et condition
 
+Voici la synthaxe des boucles for et while :
 
+```
+while <condition>:
+        <statement>
+```
+La boucle while est identique à la boucle while en C.
+
+```
+for <variable> in <group>:
+        <statement>
+```
+
+La boucle for permet de faire des itérations sur un élément, comme une chaine de caractères par exemple ou une liste . 
+Dans un for `<variable>` prendra successivement la valeur de chaque élément du `<group>`. Une fois la valeur de `<group>` atteinte la boucle s'arrêtera d'elle même.
+
+On peut aussi créer une autre boucle for avec `range` :
+
+```
+for <variable> in range(<group>):
+        <statement>
+```
+
+Enfin pour forcer l'arrêt d'une boucle sans qu'elle est fini ses itérations on peut utilisrer `break` :
+
+```
+for <variable> in <group>:
+        <statement>
+        break
+
+while <condition>:
+        <statement>
+        break
+```
+
+__Exercice__
 
