@@ -44,11 +44,11 @@ Autre exemple concret d'allocation de mémoire automatique :
 ```
 tab = []
 ```
-Dans cet exemple on crée on tableau, celui-ci est automatiquement alloué dynamiquement (pas besoin d'allouer la mémoire à la main et encore moins de la free, tout passe par un un sytème de garbage collection), et gère de lui même les types qui lui sont attribués.
+Dans cet exemple on crée une liste (equivalent de tableau en C avec quelques différences notables), celle-ci est automatiquement alloué dynamiquement (pas besoin d'allouer la mémoire à la main et encore moins de la free, tout passe par un un sytème de garbage collection), et gère d'elle même les types qui lui sont attribués.
 
-__Attention :__
+__Note :__
 
-Même si le python type automatiquement cela ne veut pas dire que l'on peut créer un tableau contenant différents types. Si l'on décide de remplir notre tableau de 'int' alors on ne pourra pas ensuite remplir ce même tableau de 'string', à moins de le vider.
+En python la liste peut comporter des données de n'importe quelle type, en effet des nombres et des chaines de caractères peuvent se suivre par exemple.
 
 __Exercice__
 
@@ -147,12 +147,13 @@ while <condition>:
         break
 ```
 
-__Exercice__
+__Exercices__
 
+* Ecrivez une fonction qui vérifie si un nombre est positif. Si le nombre est positif vous devrez print Positif si il ne l'est pas Negatif.
+* Créez une fonction qui vérifie si toute les valeurs d'une liste sont positives (en partant du principe que la liste n'est composé que de nombres), comme dans l'exercice précedent il vous faudra return Positif si toute la liste est positive et Negatif si elle ne l'est pas entièrement (Exemple de liste `[0, -4, 10, 45, -121]`).
 
+## Partie 6 Conditions et gestion d'erreur
 
-Après On fait les conditions
-Ensuite les gestions et catch d'erreur
 
 Exercice ++
 
