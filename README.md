@@ -154,10 +154,66 @@ __Exercices__
 
 ## Partie 6 Conditions et gestion d'erreur
 
+Voici la synthaxe d'un `if` en python :
 
-Exercice ++
+```
+if <condition>:
+        <do>
+```
 
-Bonus :
+Comme en C le if, elif, else existe :
+
+```
+if <condition>:
+        <do>
+elif:
+        <do>
+else:
+        <do>
+```
+
+Il existe aussi le or et le and :
+
+```
+if <condition> and <condition>:
+        <do>
+```
+```
+if <condition> or <condition>:
+        <do>
+```
+
+Dans les conditions rien de nouveau, faire des exercices n'est donc pas très utile, passons à ka gestion d'erreur.
+
+La gestion d'erreur peut se faire de plusieur façon en python, avec des conditions comme en C, ou avec ce qu'on appel un try catch :
+```
+while True:
+        try:
+                <do>
+        except:
+                <do>
+```
+On peut evidemment except plusieur fois d'affilé pour raise les erreurs.
+Il existe une dernière condition que l'on peut rajouter dans un try catch :
+```
+try:
+        <do>
+except:
+        <do>
+finally:
+        <do>
+```
+Le mot clef finally permet d'être éxecuter même si aucune erreur n'est raise.
+
+## Exercices
+
+* Ecrire un programme qui check si le chiffre proposé est une puissance de 2 (le chiffre est forcément positif).
+* Ecrire un programme qui check si le chiffre proposé est un carré parfait. (Ex : 2 * 2 = 4 = 2^2 c'est un carré parfait, mais 2 * 2 * 2 = 8 = 2^3 ce n'est pas un carré parfait).
+* Ecrire un programme qui permet de saisir un nombre puis déterminer s’il appartient à un intervalle donné, sachant que les extrémités de l’intervalle sont fixées par l’utilisateur.
+* Ecrire un programme qui demande deux nombres à l’utilisateur et l’informe ensuite si leur produit est négatif ou positif. Attention toutefois on ne doit pas calculer le produit des deux nombres.
+* Étant donné un tableau tab[] et deux entiers X et Y. La tâche consiste à trouver un sous-tableau de taille supérieure ou égale à X et d'au plus Y, qui contient la moyenne maximale (moyenne des éléments du sous-tableau).
+
+## Bonus
 - Test Unitaire
 - Orientés objets
 - Héritage etc ...
